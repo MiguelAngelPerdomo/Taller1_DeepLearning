@@ -20,7 +20,7 @@ def cargar_datos(ruta_archivo):
         return None  # Retorna None en caso de error
 
 # Llamar a la función y asignar el resultado a df
-df = cargar_datos(r"C:/Taller_1/archive/House_Rent_Dataset.csv")
+df = cargar_datos(r"../House_Rent_Dataset.csv")
 
 # Verifica si df se cargó correctamente antes de imprimir
 if df is not None:
