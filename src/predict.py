@@ -16,4 +16,4 @@ def predict_rent(model_path, new_data_path, output_path="predictions.csv"):
     print(f"Predicciones guardadas en {output_path}")
 
 if __name__ == "__main__":
-    predict_rent("model.h5", "new_data.csv")
+    predict_rent("../models/house_rent_model.h5", "new_data.csv")

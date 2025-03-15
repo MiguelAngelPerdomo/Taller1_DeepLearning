@@ -15,4 +15,4 @@ def evaluate_model(model_path, test_data_path):
     print(f"Loss (MSE): {loss}, MAE: {mae}")
 
 if __name__ == "__main__":
-    evaluate_model("model.h5", "test_dataset.csv")
+    evaluate_model("../models/house_rent_model.h5", "test_dataset.csv")

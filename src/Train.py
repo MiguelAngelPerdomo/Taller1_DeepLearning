@@ -18,8 +18,8 @@ def train_model(data_path):
         verbose=1
     )
 
-    model_instance.save('model.h5')
-    print("Entrenamiento completado y modelo guardado como 'model.h5'")
+    model_instance.save('../models/house_rent_model.h5')
+    print("Entrenamiento completado y modelo guardado como 'house_rent_model.h5'")
 
 if __name__ == "__main__":
     train_model("dataset.csv")
